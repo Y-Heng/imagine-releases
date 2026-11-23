@@ -1,0 +1,18 @@
+[
+  {
+    "version": "1.6.2",
+    "notes": "修复匿名 GitHub API 限流导致「检查更新」失败的问题。应用改为读取公开的静态更新索引，不再占用 GitHub REST API 配额。\n安装包仍从 GitHub Releases 下载，并在运行前校验文件大小和 SHA-256。",
+    "installer": {
+      "sha256": "7779fb6f5c87cd364b2af7706e74c2f89615cfeca6a12179b41c9a97367ffc87",
+      "size": 7059210
+    }
+  },
+  {
+    "version": "1.6.1",
+    "notes": "应用改用独立公开发布仓库检查更新，支持逐版更新说明及安装包校验。保留设置、SQLite 生成记录、目录迁移和下载目录配置。",
+    "installer": {
+      "sha256": "fecf7471bcd5c59a652641ad90ea4698069a08e410265ae1cca7fbb30acec1b8",
+      "size": 7054290
+    }
+  }
+]
